@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Movies Colletions - @yield('title')</title>
+
+    <link rel="stylesheet" href="{{ asset("css/app.css")}}">
 </head>
 <body>
     @include('partials.header')
 
     <main>
-        <h1>main</h1>
+        @yield('main')
     </main>
 
     @include('partials.footer')
