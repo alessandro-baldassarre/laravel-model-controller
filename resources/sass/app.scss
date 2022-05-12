@@ -9,11 +9,14 @@ body{
     width: 100%;
     max-width: 100%;
     max-height: 100vh;
-    overflow: hidden;
+    min-width: 800px;
+    background-image: linear-gradient(to bottom, #7fa1d3, #74b2cb, #8cbdbd, #adc4b8, #c8cbc2);
 }
 
 header{
     height: 10vh;
+    text-align: center;
+    line-height: 10vh;
 }
 
 main{
@@ -21,7 +24,6 @@ main{
     max-height: 80vh;
     max-width: 100%;
     overflow-y: auto;
-    overflow-x: hidden;
     div.container{
         display: flex;
         flex-wrap: wrap;
@@ -33,6 +35,10 @@ main{
             padding: 1rem;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 12px;
+            font-size: .8rem;
+            line-height: 2rem;
+            text-align: center;
+
         }
     }
 }
